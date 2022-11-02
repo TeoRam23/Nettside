@@ -1,21 +1,101 @@
-input, body, a, table, th, td {
-    font-family: sans-serif; font-size: 100%;
+h1, h2, p, a, th, td  {
+    font-family: Arial, Helvetica, sans-serif; color:rgb(0, 0, 0); line-height: 1.6;
 }
-h1 {
-    color: rgb(0, 95, 0);
-}
-input {
-    color: green;
-}
-body {
-    background-color: rgb(135, 191, 255);
-}
-a {
-    color: rgb(176, 0, 0)
-}
-table, th, td {
-    border:2px solid rgb(0, 95, 0);
-}
-#grunn {
+
+.top {
     display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    border-bottom:4px solid rgb(255, 255, 255);
+
+}
+
+.toplink {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    color: white;
+}
+
+.overskrift {
+    color: white;
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.innhold {
+    display: flex;
+ 
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.om {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 1800px;
+    max-width: 99%;
+    min-height: 750px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.omvenstre {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    max-width: 100%;
+}
+
+.omhøyre {
+    max-width: 50%;
+    min-width: 450px;
+
+
+}
+
+table, th, td {
+    border:2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+td, th {
+    vertical-align: top; width: 150px;
+}
+
+.endinger{
+    display: flex;
+    flex-direction: column;
+
+    width: 1800px;
+    max-width: 99%;
+    min-height: 100%;
+    background-color: white;
+}
+.endingertop {
+    display: flex;
+    justify-content: center;
+}
+
+.endingerc {
+    display: flex;
+    justify-content: center;
+}
+
+.endingertabel {
+    width: 95%;
+}
+
+
+body {
+    background-color: rgb(36, 39, 72);
 }
