@@ -17,24 +17,55 @@ h1, h2, p, a, th, td  {
     color: white;
 }
 
-.overskrift {
+.hvit {
     color: white;
 }
 
+.dull {
+    color: rgb(119, 149, 188);
+}
 
+.hoved {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.hsider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 300px;
+    background-color: rgb(71, 104, 147);
+    border: 3px solid rgb(119, 149, 188);
+}
 
 h1 {
     display: flex;
     justify-content: center;
 }
 
+.sider {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.usider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(71, 104, 147);
+    border: 3px solid rgb(119, 149, 188);
+}
+
 .innhold {
     display: flex;
- 
     flex-direction: column;
     align-items: center;
-
-    
 }
 
 .om {
